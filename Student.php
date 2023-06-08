@@ -1,10 +1,10 @@
 <?php
 
 class Student {
-    public readonly int $id;
-    public $name;
-    public $email;
-    public $courses = [];
+    private readonly int $id;
+    private $name;
+    private $email;
+    private $courses = [];
 
     public function __construct($id , $name , $email) {
         $this->id = $id;

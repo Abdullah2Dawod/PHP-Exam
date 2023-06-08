@@ -17,7 +17,7 @@ class Manager
 {
     use Loggable;
 
-    public $students = [];
+    private $students = [];
 
     public function AddStudent(Student $student)
     {

@@ -1,7 +1,7 @@
 <?php
 class Course {
-    public readonly int $id;
-    public $name;
+    private readonly int $id;
+    private $name;
 
     public function __construct($id , $name) {
         $this->id = $id;
