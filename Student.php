@@ -1,5 +1,7 @@
 <?php
 
+namespace StudentManagement;
+
 class Student {
     private readonly int $id;
     private $name;
@@ -27,10 +29,15 @@ class Student {
     {
         return $this->email;
     }
-
-    public function getCourse(Course $course)
+    
+    public function addcourse(Course $course)
     {
         $this->courses[] = $course;
+    }
+
+    public function getcourse()
+    {
+        return $this->courses;
     }
 
 }

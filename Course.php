@@ -1,4 +1,7 @@
 <?php
+
+namespace StudentManagement;
+
 class Course {
     private readonly int $id;
     private $name;
